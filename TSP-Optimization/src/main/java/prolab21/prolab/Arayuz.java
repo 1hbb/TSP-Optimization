@@ -23,7 +23,7 @@ import java.util.List;
 @SuppressWarnings("serial")
 public class Arayuz extends JPanel {
     private static final int PREF_W = 1650;
-    private static final int PREF_H = 750;
+    private static final int PREF_H = 790;
     private List<MyDrawable> drawables = new ArrayList<>();
 
 
@@ -55,7 +55,9 @@ public class Arayuz extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
         Graphics2D g3 = (Graphics2D) g;
         g3.setStroke(new BasicStroke(4.0f));
-        g3.setPaint(new Color(255,16,71));
+
+        g3.setPaint(new Color(47,79,79));
+        /*g3.setPaint(new Color(255,16,71));*/
         //g3.setPaint(new Color(255,0,54));
 
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
@@ -95,9 +97,28 @@ public class Arayuz extends JPanel {
             int fontSize=15;
             g.setFont(new Font("TimesRoman", Font.PLAIN, fontSize));
 
-            g.setColor(new Color(74,69,64));
+            /*g.setColor(new Color(112,128,144));*/
+            g.setColor(new Color(0,0,0));
             g.drawString( dizi[i], Coordinat[i][0]-20, Coordinat[i][1]-5);
         }
+
+        g.setColor(new Color(0,0,0));
+        g.drawString( "Başlangıç Noktası",110,730);
+        g.drawString( "Gidilmek İstenen Şehir&Şehirler",110,750);
+        g.drawString( "Rotaya Dahil Olmayan Şehirler",110,690);
+        g.drawString( "Zorunlu Olarak Uğranan komşu şehirler",110,710);
+        g.drawString( "En Kısa Yol İçin Renk",110,770);
+        g.drawString( "Diğer Yollar İçin Renk",110,785);
+        g.setColor(new Color(255,0,0));
+        g.drawString( "Renk&İcon Anlamları:",92,659);
+
+        g.setColor(new Color(112,128,144));
+        g3.draw(new Ellipse2D.Double(92,680, 10, 10));
+        g3.draw(new Ellipse2D.Double(92,700, 10, 10));
+        g3.draw(new Ellipse2D.Double(92,720, 10, 10));
+        g3.draw(new Ellipse2D.Double(92,740, 10, 10));
+
+
 
 
     }
@@ -137,19 +158,28 @@ public class Arayuz extends JPanel {
             }
         }*/
 
+        myDrawables.add(new MyDrawable(new Line2D.Double(
+                50, 780, 100, 780),
+                new Color(255,0,0), new BasicStroke(4)));
+
 
         for (int i = 0; i < boyut; i++) {
             for (int j = 0; j < results.get(i).size()-2; j++) {
                 if(i<boyut-1){
                     myDrawables.add(new MyDrawable(new Line2D.Double(
                             nums[results.get(i).get(j)-1][0]+5, nums[results.get(i).get(j)-1][1]+6, nums[results.get(i).get(j+1)-1][0]+5, nums[results.get(i).get(j+1)-1][1]+6),
-                            new Color(0,0,0), new BasicStroke(4)));
+                            new Color(255,0,0), new BasicStroke(4)));
+
+
 
                 }
 
                 if (i==boyut-1){
                     myDrawables.add(new MyDrawable(new Line2D.Double(
                             nums[results.get(i).get(j)-1][0]+5, nums[results.get(i).get(j)-1][1]+6, nums[results.get(i).get(j+1)-1][0]+5, nums[results.get(i).get(j+1)-1][1]+6),
+                            new Color(0,155,255), new BasicStroke(4)));
+                    myDrawables.add(new MyDrawable(new Line2D.Double(
+                            50, 765, 100, 765),
                             new Color(0,155,255), new BasicStroke(4)));
                 }
 
@@ -164,21 +194,37 @@ public class Arayuz extends JPanel {
             myDrawables.add(new MyDrawable(new Ellipse2D.Double(
                     nums[ugranacakSehirler.get(i)-1][0]+3, nums[ugranacakSehirler.get(i)-1][1]+3,5,5),
                     new Color(255,255,0), new BasicStroke(17)));
+            myDrawables.add(new MyDrawable(new Ellipse2D.Double(
+                    92+3, 740+3,5,5),
+                    new Color(255,255,0), new BasicStroke(17)));
         }
 
         for (int i = 0; i < boyut; i++) {
             for (int j = 0; j < results.get(i).size()-2; j++) {
                 myDrawables.add(new MyDrawable(new Ellipse2D.Double(
                         nums[results.get(i).get(j)-1][0]+3, nums[results.get(i).get(j)-1][1]+3, 5, 5),
-                        new Color(0,0,0), new BasicStroke(5)));
+                        new Color(255,0,0), new BasicStroke(5)));
+                myDrawables.add(new MyDrawable(new Ellipse2D.Double(
+                        92+3, 700+3, 5, 5),
+                        new Color(255,0,0), new BasicStroke(5)));
+                myDrawables.add(new MyDrawable(new Ellipse2D.Double(
+                        92+3, 740+3, 5, 5),
+                        new Color(255,0,0), new BasicStroke(5)));
+
                 if(j ==0){
                     myDrawables.add(new MyDrawable(new Ellipse2D.Double(
                             nums[results.get(i).get(j)-1][0]+3, nums[results.get(i).get(j)-1][1]+3,5,5),
-                            new Color(124,252,0), new BasicStroke(17)));
+                            new Color(0,255,111), new BasicStroke(17)));
+                    myDrawables.add(new MyDrawable(new Ellipse2D.Double(
+                            92+3, 720+3, 5, 5),
+                            new Color(0,255,11), new BasicStroke(17)));
+
                 }
 
 
             }
+
+
 
 
 
