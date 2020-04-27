@@ -54,6 +54,13 @@ public class Main {
     }
 
 
+    public class InvalidSpeedException extends Exception {
+
+        public InvalidSpeedException(String message){
+            super(message);
+        }
+
+    }
 
 
     /**
@@ -227,16 +234,23 @@ public class Main {
 
         Scanner scan =new Scanner(System.in);
 
+
         System.out.println("BASLANGİC PLAKASI GİRİNİZ");
         int baslangic=scan.nextInt();
         gidicekSehirler.add(baslangic);
         System.out.println("KAÇ ADET ŞEHİRE UĞRANACAK:");
         int ugranacak = scan.nextInt();
+        if (ugranacak > 10){
+            throw new InvalidPropertiesFormatException("UGRANACAK SEHIR SAYISI > 10 OLAMAZ.");
+        }
 
         int[] a= new int[ugranacak];
         for (int asd=0 ; asd<ugranacak ; asd++){
             System.out.printf("%d. SEHRİN PLAKASINI GİRİN:",asd+1);
             a[asd]=scan.nextInt();
+            if (a[asd] > 81){
+                throw new InvalidPropertiesFormatException("PLAKA > 81 OLAMAZ.");
+            }
             gidicekSehirler.add(a[asd]);
             solver.reconstructShortestPath(baslangic-1, a[asd]-1); //maliyeti ve rotayı burada ugramak istedigimiz her sehir için hesaplanıyor
 
