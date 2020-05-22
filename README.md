@@ -4,15 +4,6 @@
 
 
 
-# SCREENSHOTS #
-
-![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
-
-
-![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.27.png "2")
-
-
-
 ### TRAVELLER CARGO PROBLEM ###
 
 Programming Laboratory Spring Semester Project 1 Traveller Cargo Problem 
@@ -77,6 +68,12 @@ If 10 city will visit -> 3.593 second
 
 Warning! Times may vary depending on equipment status and route.
 
+# SCREENSHOTS #
+
+![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
+
+
+![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.27.png "2")
 
 # DEVELOPER #
 
