@@ -1,3 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author harunburak
+ */
+
+
+
+
+
 
 
 
@@ -26,13 +41,13 @@ public class Main {
 
     private static final int REACHES_NEGATIVE_CYCLE = -1;
 
-
+    
     public Main(double[][] matrix) {
         n = matrix.length;
         dp = new double[n][n];
         next = new Integer[n][n];
 
-
+        
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] != POSITIVE_INFINITY) next[i][j] = j;
@@ -55,17 +70,17 @@ public class Main {
     }
 
 
-
+    
     public double[][] getApspMatrix() {
         solve();
         return dp;
     }
 
-
+    
     public void solve() {
         if (solved) return;
 
-
+        
         for (int k = 0; k < n; k++) {
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
@@ -77,7 +92,7 @@ public class Main {
             }
         }
 
-
+        
         for (int k = 0; k < n; k++)
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
@@ -90,24 +105,24 @@ public class Main {
     }
 
 
-
+    
     public List<Integer> reconstructShortestPath(int start, int end) {
         solve();
         List<Integer> path = new ArrayList<>();
         if (dp[start][end] == POSITIVE_INFINITY) return path;
         int at = start;
         for (; at != end; at = next[at][end]) {
-
+            
             if (at == REACHES_NEGATIVE_CYCLE) return null;
             path.add(at+1); // indekse bir ekliyoruz plakayı bir eksik yazdırmasın diye
         }
-
+        
         if (next[at][end] == REACHES_NEGATIVE_CYCLE) return null;
         path.add(end+1); // bitis plakasına bir ekliyoruz bir eksik yazdırmasın diye
         return path;
     }
 
-
+    
     public static double[][] createGraph(int n) {
         double[][] matrix = new double[n][n];
         for (int i = 0; i < n; i++) {
@@ -125,7 +140,7 @@ public class Main {
         sehir[] sehirler = new sehir[81];
 
         for (int i = 0; i < 81; i++) {
-            sehirler[i] = new sehir();// burda niye atama yapıyor
+            sehirler[i] = new sehir();
         }
         File file = new File("./src/sourceFiles/komsuuzaklik.txt");
 
@@ -161,7 +176,7 @@ public class Main {
 
 
 
-        // Construct graph.
+        
         int n = 81;
         double[][] m = createGraph(n);
 
@@ -177,11 +192,12 @@ public class Main {
 
 
         }
-        // Add some edge values.
+        
 
 
         Main solver = new Main(m);
         double[][] dist = solver.getApspMatrix(); // yol maliyetleri buradaki dist[][] matriksinin içinde
+
 
 
 
@@ -259,16 +275,16 @@ public class Main {
 
         List<ArrayList<Integer>> gidisDonusArrayList = new ArrayList<>();
 
-        int boyut=0;
-        if (permArrayList.size() >= 5){
-            boyut=5;
-        }
-        if(permArrayList.size()==2){
-            boyut=2;
-        }
-        if (permArrayList.size()==1){
-            boyut=1;
-        }
+            int boyut=0;
+            if (permArrayList.size() >= 5){
+                boyut=5;
+            }
+            if(permArrayList.size()==2){
+                boyut=2;
+            }
+            if (permArrayList.size()==1){
+                boyut=1;
+            }
 
 
 
@@ -326,7 +342,7 @@ public class Main {
         System.out.println("-----------------------------------------------------------");
 
         for (int j = 0; j < gidisDonusArrayList.size(); j++) {
-            Collections.reverse(gidisDonusArrayList.get(j));
+                Collections.reverse(gidisDonusArrayList.get(j));
             System.out.println(j+1+". EN KISA ROTA : "+gidisDonusArrayList.get(j)); // SON ROTA VE MALİYET BUNUN gidisDonusArrayList İÇİNDE (TAM BİR TUR)
 
         }
@@ -350,4 +366,5 @@ public class Main {
     }
 
 }
+
 

@@ -1,3 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author harunburak
+ */
+
+
+
+
 import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,28 +25,28 @@ class getRoute {
 
 
 
-        String str1 = JOptionPane.showInputDialog("How Many City You Will Visit?(MAX 10)");
+        String str1 = JOptionPane.showInputDialog("Kac Adet Sehire Ugranacak?(En fazla 10 adet)");
         int sehirSayisi = Integer.parseInt(str1);
-        String str2 = JOptionPane.showInputDialog("Enter Starting City Code(1 - 81)");
+        String str2 = JOptionPane.showInputDialog("Baslangic Sehrini Girin");
         // input dialog returns always a string
         int baslangic = Integer.parseInt(str2);
 
         int ugranacak[]= new int[sehirSayisi];
 
         for (int i = 0; i < sehirSayisi; i++) {
-            String str = JOptionPane.showInputDialog((i+1)+". City Code(1 - 81)");
+            String str = JOptionPane.showInputDialog((i+1)+". Sehrin Plakasini Girin(81 den buyuk olmamali)");
             ugranacak[i]=Integer.parseInt(str);
         }
 
         Main func = new Main();
         List<ArrayList<Integer>> yollar;
-
+        
         long startTime = System.currentTimeMillis();//zaman işlemleri başlangıç
-
+        
         yollar=func.temelFonksiyon(ugranacak,baslangic);
-
+        
         long estimatedTime = System.currentTimeMillis() - startTime;
-
+        
         System.out.println(yollar);
 
         String outputYol="";
@@ -41,15 +55,15 @@ class getRoute {
 
             for (int j = 0; j < 1; j++) {
 
-                outputYol=outputYol+(k++)+". Route: "+yollar.get(i).toString();
+                outputYol=outputYol+(k++)+". Yol: "+yollar.get(i).toString();
 
-                outputYol+="---->  Travel Cost:" +yollar.get(i).get(yollar.get(i).size()-1).toString()+" Km";
+                    outputYol+="---->  Yol Maliyeti:" +yollar.get(i).get(yollar.get(i).size()-1).toString()+" Km";
 
             }
             outputYol+="\n";
         }
-
-        outputYol+="Operation Time: "+(double)estimatedTime/1000+" second";
+        
+        outputYol+="Calisma suresi: "+(double)estimatedTime/1000+" saniye";
 
         JOptionPane.showMessageDialog(null,outputYol);
 
