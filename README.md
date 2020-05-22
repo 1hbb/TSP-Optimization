@@ -20,7 +20,7 @@ it finds 5 additional shortcuts for the shortest route. The Floyd-Warshall algor
 
 
 
-# INSTALLING & USING #
+# INSTALLING & USAGE #
 <br/>
 
 No setup required. There is 4 folder in "Project" folder.
