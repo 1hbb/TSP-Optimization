@@ -1,16 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author harunburak
- */
-
-
-
 
 
 import java.io.*;
@@ -23,7 +10,7 @@ class Koordinat {
     public Integer[][] koordinat1() throws FileNotFoundException, IOException {
         Integer[][] coordinatMatrix = new Integer[81][81];
         //ArrayList<ArrayList<Integer>> coordinatArraylist = new ArrayList<ArrayList<Integer>>();
-       // ArrayList<Integer> clone = new ArrayList<Integer>();
+        // ArrayList<Integer> clone = new ArrayList<Integer>();
 
         File koordinat =new File("./src/sourceFiles/turkiye81.txt");
         Scanner dosya = new Scanner(koordinat);
@@ -78,5 +65,4 @@ class Koordinat {
 
 
 }
-
 

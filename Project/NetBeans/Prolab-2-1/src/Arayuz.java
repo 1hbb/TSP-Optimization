@@ -1,16 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author harunburak
- */
-
-
-
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
@@ -106,14 +93,14 @@ public class Arayuz extends JPanel {
         }
 
         g.setColor(new Color(0,0,0));
-        g.drawString( "Başlangıç Noktası",110,730);
-        g.drawString( "Gidilmek İstenen Şehir&Şehirler",110,750);
-        g.drawString( "Rotaya Dahil Olmayan Şehirler",110,690);
-        g.drawString( "Zorunlu Olarak Uğranan komşu şehirler",110,710);
-        g.drawString( "En Kısa Yol İçin Renk",110,770);
-        g.drawString( "Diğer Yollar İçin Renk",110,785);
+        g.drawString( "Starting Point",110,730);
+        g.drawString( "Cities To visit",110,750);
+        g.drawString( "Cities Not Included In The Route",110,690);
+        g.drawString( "Neighboring Cities That Are Mandatory",110,710);
+        g.drawString( "Color For The Shortest Path",110,770);
+        g.drawString( "Color For Other Ways",110,785);
         g.setColor(new Color(255,0,0));
-        g.drawString( "Renk&İcon Anlamları:",92,659);
+        g.drawString( "Color&Icon Meanins:",92,659);
 
         g.setColor(new Color(112,128,144));
         g3.draw(new Ellipse2D.Double(92,680, 10, 10));
@@ -191,7 +178,7 @@ public class Arayuz extends JPanel {
 
 
 
-            }
+        }
 
         for (int i = 0; i<ugranacakSehirler.size(); i++){
             myDrawables.add(new MyDrawable(new Ellipse2D.Double(
@@ -249,7 +236,7 @@ public class Arayuz extends JPanel {
 
         final Arayuz drawChit = new Arayuz();
 
-        JFrame frame = new JFrame("YOL HARİTASI");
+        JFrame frame = new JFrame("Road Map");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(drawChit);
         frame.pack();
