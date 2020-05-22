@@ -1,6 +1,11 @@
 # TSP-Optimization
 
 
+# Screenshots #
+
+#1#
+https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png
+
 
 ### Gezgin Kargo Problemi ###
 
