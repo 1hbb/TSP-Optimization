@@ -16,7 +16,7 @@ Programming Laboratory Spring Semester Project 1 Traveller Cargo Problem
 
 The program provides the products of any cargo company to its customers from the point of departure (dynamically entered by the user).
 it finds 5 additional shortcuts for the shortest route. The Floyd-Warshall algorithm is used in the solution of the problem.
-
+<br/>
 
 
 
@@ -74,7 +74,7 @@ Warning! Times may vary depending on equipment status and route.
 <br/>
 
 # SCREENSHOTS #
-<br/>
+
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
 <br/>
 
