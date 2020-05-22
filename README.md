@@ -1,4 +1,4 @@
-# TSP-Optimization
+# TSP-OPTIMIZATION
 
 
 # Screenshots #
@@ -8,11 +8,11 @@
 
 
 
-### Gezgin Kargo Problemi ###
+### TRAVELLER CARGO PROBLEM ###
 
-Programlama Loboratuarı Bahar Dönemi 1. Proje. Gezgin Kargo Problemi Projesi
+Programming Laboratory Spring Semester Project 1 Traveller Cargo Problem 
 
-# Başlangıç #
+# INTRODUCTİON #
 
 
 Program herhangi bir kargo şirketinin ürünleri çıkış noktasından(dinamik olarak kullanıcı tarafından girilir) müşterilerine
@@ -21,16 +21,16 @@ en kısa yoldan ulaştırması için ek kısa 5 yolu bulmaktadır.Problemin çö
 
 
 
-# Kurulum & Kullanım #
+# INSTALLING & USING #
 
 
-Program kurulum gerektirmez. Proje klasörü içinde 4 adet klasör bulunmakta.
+No setup required. There is 4 folder in Project folder.
 
-1) "Intellij IDEA" klasörü projenin Intellij IDE ile uyumlu halidir.
-2) "NetBeans" Klasörü projenin NetBeans IDE uyumlu halidir.
-3) "Eclipse" klasörü projenin Eclipse IDE ile uyumlu halidir.
-4) "JAR" klasörü içerisinde programın "Prolab-2-1.jar" isimli çalıştırılabilir
-    java programını barındırır. Çift tıklayarak çalıştırabilirsiniz.
+1) "Intellij IDEA" for direct open with Intellij IDEA.
+2) "NetBeans" for direct open with Apache Netbeans.
+3) "Eclipse" for direct open with Eclipse IDE.
+4) There is an executable java program named "Prolab-2-1.jar" in the "JAR" folder.
+    
 
 
 Programı çalıştırdığınızda:
@@ -47,19 +47,19 @@ Programı çalıştırdığınızda:
 
 
 
-# Gereklilikler #
+# DEPENDENCIES #
 
 
-Sisteminizde Java 14 versionu kurulu olmalıdır.
+Java 14 must be installed on your system. 
 
 
 
-# Test Sonuçları #
+# Test Results #
 
 Yapılan testlerde programın karmaşıklık düzeyine göre hesaplama süreleri;
 
-1 şehir için -> 0.067 saniye
-2 şehir için -> 0.066 saniye
+If 1 city will visit -> 0.067 second
+If 2 city will visit -> 0.066 saniye
 3 şehir için -> 0.077 saniye
 4 şehir için -> 0.068 saniye
 5 şehir için -> 0.068 saniye
