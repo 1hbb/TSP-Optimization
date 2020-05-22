@@ -72,6 +72,7 @@ If 10 city will visit -> 3.593 second <br/>
 
 Warning! Times may vary depending on equipment status and route.
 <br/>
+<br/>
 
 # SCREENSHOTS #
 
@@ -79,6 +80,7 @@ Warning! Times may vary depending on equipment status and route.
 <br/>
 
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.27.png "2")
+<br/>
 <br/>
 # DEVELOPER #
 <br/>
