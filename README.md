@@ -24,12 +24,13 @@ en kısa yoldan ulaştırması için ek kısa 5 yolu bulmaktadır.Problemin çö
 # INSTALLING & USING #
 
 
-No setup required. There is 4 folder in Project folder.
+No setup required. There is 4 folder in "Project" folder.
 
 1) "Intellij IDEA" for direct open with Intellij IDEA.
 2) "NetBeans" for direct open with Apache Netbeans.
 3) "Eclipse" for direct open with Eclipse IDE.
-4) There is an executable java program named "Prolab-2-1.jar" in the "JAR" folder.
+4) There is an executable java program named "Prolab-2-1.jar" in the "JAR" folder. 
+   You can run by double click.
     
 
 
@@ -72,6 +73,6 @@ If 2 city will visit -> 0.066 saniye
 Dikkat! Süreler donanım durumuna ve rotaya göre değişkenlik gösterebilir.
 
 
-# Geliştirici #
+# DEVELOPER #
 
 Harun Burak BURSA
