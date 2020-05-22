@@ -1,7 +1,7 @@
-# TSP-OPTIMIZATION
+### TRAVELLING SALESMAN PROBLEM - OPTIMIZATION ###
 
 
-# Screenshots #
+# SCREENSHOTS #
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.22.03.png "3")
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.27.png "2")
@@ -55,7 +55,7 @@ Java 14 must be installed on your system.
 
 
 
-# Test Results #
+# TEST RESULTS #
 
 According to the complexity of the computation time of the program In tests;
 
