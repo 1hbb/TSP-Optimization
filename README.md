@@ -71,7 +71,7 @@ Java 14 must be installed on your system.
 
 ## Test Results
 <br/>
-<h3> According to the complexity of the computation time of the program In tests; </h3>
+<Strong> According to the complexity of the computation time of the program In tests; </Strong>
 
 - If 1 city will visit -> 0.067 second 
 - If 2 city will visit -> 0.066 second 
