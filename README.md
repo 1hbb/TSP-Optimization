@@ -84,7 +84,7 @@ Java 14 must be installed on your system.
 - If 9 city will visit -> 0.550 second 
 - If 10 city will visit -> 3.593 second 
 
-Warning! Times may vary depending on equipment status and route.
+<sub> Warning! Times may vary depending on equipment status and route. </sub>
 <br/>
 <br/>
 
