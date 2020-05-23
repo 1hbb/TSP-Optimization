@@ -48,7 +48,7 @@ No setup required. There is 4 folder in "Project" folder.
 <br/>
 
 
-When Program Executed:
+<Strong> When Program Executed:</Strong>
 1) Firstly you must enter how many city you will visit.( MAX 10).  
 
 2) You must enter the code of starting city. Its mean cargo distribution center.
