@@ -2,6 +2,10 @@
 <br/>
 <br/>
 <br/>
+<div align="center" >
+ Fast Travelling Salesman Solver 
+ <sub> Available for Linux, macOS and Windows. </sub>
+</div>
 
 <div align="center" >
  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total">  
