@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-<div allign="center" >
+<div align="center" >
  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total">    
              
 </div>
