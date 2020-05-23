@@ -5,7 +5,7 @@
 
 <div align="center" >
  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total">  
-             
+ <img alt="GitHub" src="https://img.shields.io/github/license/1hbb/TSP-Optimization">           
 </div>
 
 
