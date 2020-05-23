@@ -19,13 +19,13 @@
 
 
 
-# TRAVELLER CARGO PROBLEM #
+# Traveller Cargo Problem #
 
 <br/>
 Programming Laboratory Spring Semester Project 1 Traveller Cargo Problem 
 <br/>
 
-# INTRODUCTİON #
+# Introduction #
 <br/>
 
 The program provides the products of any cargo company to its customers from the point of departure (dynamically entered by the user).
