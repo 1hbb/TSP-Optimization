@@ -1,4 +1,4 @@
- <h1 align="center" > TRAVELLING SALESMAN PROBLEM - OPTIMIZATION </h1>
+ <h1 align="center" > TRAVELLING SALESMAN PROBLEM  OPTIMIZATION </h1>
 <br/>
 <br/>
 <br/>
@@ -37,7 +37,7 @@ it finds 5 additional shortcuts for the shortest route. The Floyd-Warshall algor
 ## Installing & Usage
 <br/>
 
-No setup required. There is 4 folder in "Project" folder.
+<Strong> No setup required. There is 4 folder in "Project" folder. </Strong>
 
 1) "Intellij IDEA" for direct open with Intellij IDEA.
 2) "NetBeans" for direct open with Apache Netbeans.
@@ -97,5 +97,5 @@ Java 14 must be installed on your system.
 <br/>
 <br/>
 ## Contributors
-<br/>
-Harun Burak BURSA
+
+-Harun Burak BURSA
