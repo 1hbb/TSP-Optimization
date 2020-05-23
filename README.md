@@ -34,7 +34,7 @@ it finds 5 additional shortcuts for the shortest route. The Floyd-Warshall algor
 
 
 
-## INSTALLING & USAGE
+## Installing & Usage
 <br/>
 
 No setup required. There is 4 folder in "Project" folder.
@@ -62,14 +62,14 @@ When Program Executed:
 
 
 
-## DEPENDENCIES
+## Dependencies
 <br/>
 
 Java 14 must be installed on your system. 
 <br/>
 
 
-## TEST RESULTS
+## Test Results
 <br/>
 <h3> According to the complexity of the computation time of the program In tests; </h3>
 
@@ -88,7 +88,7 @@ Java 14 must be installed on your system.
 <br/>
 <br/>
 
-## SCREENSHOTS
+## Screenshots
 
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
 <br/>
