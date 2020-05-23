@@ -72,17 +72,16 @@ Java 14 must be installed on your system.
 # TEST RESULTS #
 <br/>
 <h3> According to the complexity of the computation time of the program In tests; </h3>
-
 - If 1 city will visit -> 0.067 second 
 - If 2 city will visit -> 0.066 second 
-- If 3 city will visit -> 0.077 second <br/>
-If 4 city will visit -> 0.068 second <br/>
-If 5 city will visit -> 0.068 second <br/>
-If 6 city will visit -> 0.071 second <br/>
-If 7 city will visit -> 0.081 second <br/>
-If 8 city will visit -> 0.138 second <br/>
-If 9 city will visit -> 0.550 second <br/>
-If 10 city will visit -> 3.593 second <br/>
+- If 3 city will visit -> 0.077 second 
+- If 4 city will visit -> 0.068 second 
+- If 5 city will visit -> 0.068 second 
+- If 6 city will visit -> 0.071 second 
+- If 7 city will visit -> 0.081 second 
+- If 8 city will visit -> 0.138 second 
+- If 9 city will visit -> 0.550 second 
+- If 10 city will visit -> 3.593 second 
 
 Warning! Times may vary depending on equipment status and route.
 <br/>
