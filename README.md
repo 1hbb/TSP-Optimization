@@ -25,7 +25,7 @@
 Programming Laboratory Spring Semester Project 1 Traveller Cargo Problem 
 <br/>
 
-# Introduction #
+## Introduction
 <br/>
 
 The program provides the products of any cargo company to its customers from the point of departure (dynamically entered by the user).
@@ -34,7 +34,7 @@ it finds 5 additional shortcuts for the shortest route. The Floyd-Warshall algor
 
 
 
-# INSTALLING & USAGE #
+## INSTALLING & USAGE
 <br/>
 
 No setup required. There is 4 folder in "Project" folder.
@@ -62,14 +62,14 @@ When Program Executed:
 
 
 
-# DEPENDENCIES #
+## DEPENDENCIES
 <br/>
 
 Java 14 must be installed on your system. 
 <br/>
 
 
-# TEST RESULTS #
+## TEST RESULTS
 <br/>
 <h3> According to the complexity of the computation time of the program In tests; </h3>
 
@@ -88,7 +88,7 @@ Java 14 must be installed on your system.
 <br/>
 <br/>
 
-# SCREENSHOTS #
+## SCREENSHOTS
 
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.08.png "1")
 <br/>
@@ -96,6 +96,6 @@ Java 14 must be installed on your system.
 ![Alt text](https://github.com/1hbb/TSP-Optimization/blob/master/screenshots/Ekran%20Resmi%202020-05-22%2013.20.27.png "2")
 <br/>
 <br/>
-# DEVELOPER #
+## Contributors
 <br/>
 Harun Burak BURSA
