@@ -3,7 +3,7 @@
 <br/>
 <br/>
 <div align="center" >
- Fast Travelling Salesman Solver 
+ Fast Travelling Salesman Solver <br/>
  <sub> Available for Linux, macOS and Windows. </sub>
 </div>
 <br/>
