@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-
+![GitHub All Releases](https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total)
 
 # TRAVELLER CARGO PROBLEM #
 
