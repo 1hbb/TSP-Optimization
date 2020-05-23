@@ -3,7 +3,11 @@
 <br/>
 <br/>
 
-![GitHub All Releases](https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total)
+<div allign="center >
+       ![GitHub All Releases](https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total)
+             
+</div>   
+
 
 # TRAVELLER CARGO PROBLEM #
 
