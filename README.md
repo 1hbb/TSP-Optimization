@@ -4,7 +4,7 @@
 <br/>
 
 <div align="center" >
- <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total">    
+ ![GitHub All Releases](https://img.shields.io/github/downloads/1hbb/TSP-Optimization/total)   
              
 </div>
 
